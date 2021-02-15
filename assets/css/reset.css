@@ -1,0 +1,189 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,
+textarea,button {margin:0;padding:0}  /* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,img {border:0 none}  /* 重置fieldset（表单分组）、图片的边框为0*/
+dl,ul,ol,menu,li {list-style:none}   /* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote, q {quotes: none}   /* 重置嵌套引用的引号类型 */
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}  /* 重置嵌套引用*/
+input,select,textarea,button {vertical-align:middle}  /* 重置表单控件垂直居中*/
+button {border:0 none;background-color:transparent;cursor:pointer}  /* 重置表单button按钮效果 */
+body {background: #ecf0f5;}   /* 重置body 页面背景为白色 */
+body,th,td,input,select,textarea,button {font-size:12px ;line-height: 1;font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;color:#666} /* 重置页面文字属性 */
+a {color:#666;text-decoration:none}  /* 重置链接a标签 */
+a:active, a:hover {text-decoration:none}   /* 重置链接a标签的鼠标滑动效果 */
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}  /* 重置样式标签的样式 */
+caption {display:none;}  /* 重置表格标题为隐藏 */
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}  /* 重置table属性 */
+/* 图片在当前行内的垂直位置 */
+body{
+  /* padding-bottom:150px;  */
+}
+/* 页面设置 */
+body::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+body{
+  /* min-width: 1000px; */
+}
+body::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 10px;
+   -webkit-box-shadow: inset 0 0 5px #FFF;
+  background: #939393;
+}
+body::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #FFF;
+  border-radius: 10px;
+  background: #EDEDED;
+} 
+
+
+/* 取消a标签点击后的虚线框 */
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+
+ /* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */
+
+/* ::selection {color: #fff;background-color: #4C6E78;}
+::-moz-selection {color: #fff;background-color: #4C6E78;}  */
+
+
+/*清除浮动*/
+.clear{clear: both;}
+/*清除浮动--推荐使用*/
+.clearfix:before,.clearfix:after{content: '';display: table;}
+.clearfix:after{clear: both;}
+
+
+.omit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.span_btn:hover{
+  color: rgb(108, 147, 253);
+  cursor:pointer
+}
+.back{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/*  */
+
+
+
+/*-- Element UI的样式重写--*/
+ul.el-pager>li,.el-pagination button:disabled,input.el-input__inner,button.btn-next,.fr.el-pagination>* {
+  background: none;
+}
+.el-button{
+  /* color: #FFF; */
+}
+/* .el-menu--collapse>.el-menu-item span, .el-menu--collapse>.el-submenu>.el-submenu__title span{
+  visibility: none !important; 
+}
+.el-submenu__title *{
+  vertical-align: top !important;
+} */
+.el-menu-item-group__title{
+  padding: 0 !important;
+}
+.content .el-select.el-select--small , .content button.el-button.small.bg_blue.el-button--default.el-button--small{
+  width: 100% !important;
+}
+.cell_box .el-table th>.cell{
+font-size:14px;
+/* font-family:SFUIDisplay-Bold; */
+font-weight:bold;
+color:rgba(32,42,71,1);
+}
+.el-dialog__header{
+  padding: 0 !important;
+  line-height: 54px;
+  position: relative;
+  border-bottom: 1px solid #cecece;
+}
+.el-dialog__body{
+  padding: 20px 15px;
+  color: #606266;
+  font-size: 14px;
+}
+/* .el-dialog__header::before{
+  content: ''; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #dcdcdc;
+} */
+.avatar-uploader{
+  height: 150px;
+  width: 150px;
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader>div,.avatar-uploader>div img{
+  height: 100%;
+    width: 100%;
+}
+
+
+i.el-icon-plus.avatar-uploader-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left:-6px;
+  margin-top: -6px; 
+}
+i.el-collapse-item__arrow {
+  margin-right: 20px;
+}
+.ql-container.ql-snow{
+  background: #20202e;
+}
+
+.tag {
+  padding: 2px 5px 2px 5px;
+  box-shadow: 2px 4px 6px #000;
+  color: white;
+  margin: 2px;
+}
+
+
+.top_marg{
+  margin-top: 20px;
+}
+.backg_white{
+  background: #FFF;
+} 
+.btntext{
+  font-size:14px;
+  /* font-family:SFUIDisplay-Bold; */
+  font-weight:bold;
+  color:rgba(1,0,142,1);
+  padding: 0 10px;
+}
+.btntext:hover{
+  cursor:pointer;
+  color:rgba(76,75,213,1);
+}
+.back {
+  margin: 0 20px;
+}
+.el-menu--popup .el-menu-item, .el-submenu__title{
+  height: 56px !important;
+  line-height: 56px !important; 
+}
+.main-header .el-submenu .el-menu-item{
+  height: 50px !important;
+  line-height: 50px !important;
+}
+.ql-editor{
+  color:rgb(187, 187, 187);
+}
+.ql-editor.ql-blank::before{
+  color: rgb(136,136,136) !important;
+}

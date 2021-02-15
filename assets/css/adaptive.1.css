@@ -1,0 +1,78 @@
+/* 必填样式 */
+.required{
+    /* font-size: 14px !important; */
+    /* display: inline-block; */
+    color: red;
+    position: relative;
+    top: 4px;
+    /* display: inline-block; */
+}
+/* 验证显示样式 */
+.curtail{
+    padding: 4px;
+    color: red;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 10px;
+}
+.languageLogo{
+    padding-left:20px;
+    height:20px;
+    width: 40px;
+    vertical-align:sub
+}
+.ql-editor.ql-blank, .ql-editor{
+  min-height: 9em;
+}
+.contentIn{
+  background: #3d3d4c;
+  color: #FFF;
+}
+.revision_upload .el-upload-dragger{
+  width: 100% !important;
+}
+.el-upload-dragger{
+  height: 200px;
+}
+
+/*    公共样式   */ 
+.list_view_ul{
+  padding: 20px 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+.list_view_ul::before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+  height:1px;
+  background:#DDE1E9;
+}
+.list_view{
+  font-size:14px;
+  /* font-family:SFUIDisplay-Medium; */
+  font-weight:500;
+  color:rgb(129,137,152);
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.list_view:hover{
+  color: rgb(76,75,213);
+  cursor:pointer;
+}
+.list_view:hover:before{
+  width: 40px;
+}
+.list_view::before{ 
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width:0px;
+  height:4px;
+  background:rgba(76,75,213,1);
+  left: 50%;
+  margin-left: -20px;
+}

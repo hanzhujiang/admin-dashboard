@@ -1,0 +1,117 @@
+.contract_list_box{
+    position: relative;
+    height: 290px;
+    border: 1px solid #EEE;
+    margin:10px 0px; 
+    background: #FFF;
+    border-radius:5px; 
+}
+.contract_list_box_top{
+    height: 130px;
+    margin: 20px;
+    border-bottom:1px solid #EEE;
+}
+.contract_list_box_bott{
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+}
+.pic_area{
+    height: 110px;
+    width: 110px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pic_area>img{
+    width: 100%;
+    height: 100%;
+}
+.info_area{
+    line-height: 28px;
+    margin: 0 10px;
+}
+/* .info_area>.line{
+    font-size:18px;
+    font-family:SFUIDisplay-Bold;
+    font-weight:bold;
+    color:rgba(32,42,71,1);
+} */
+.info_area>p .icon{
+    padding: 0px 5px 0 0;
+}
+
+
+
+
+
+.all_projects_r{
+    height: 306px;
+    border: 1px solid #EEE;
+    border-radius:5px;
+    margin-bottom: 20px;
+  }
+  .all_projects_r_box{
+    margin: 20px;
+  }
+  .all_projects_r_box>.pic_area{
+    height: auto;
+    width: 33.33%;
+    border: 1px solid #EEE;
+    border-radius:5px;
+    overflow: hidden; 
+  }
+  .all_projects_r_box>.pic_area img{
+    width: 100%;
+    height: 100%;
+  }
+  .all_projects_r_top{
+    height: 110px;
+    height: 40px;
+    line-height: 40px;
+    width: 65.66%;
+  }
+  .all_projects_r_top>.agencyname{
+    margin: 0 10px;
+    border-bottom:1px solid #EEE; 
+  }
+  .all_projects_box{
+    border-radius:5px;
+    height: 200px;
+    margin:10px 0;
+    border: 1px solid #EEE;
+  }
+  .all_projects_box_agency{
+    border-radius:5px;
+    height: 160px;
+    margin:10px 0;
+    border: 1px solid #EEE;
+  }
+  .all_projects_top{
+    border-bottom: 1px solid #EEE;
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .all_projects_top span,.agencyname span{
+    font-size:14px;
+    /* font-family:SFUIDisplay-Bold; */
+    font-weight:bold;
+    color:rgba(85,91,103,1);
+  }
+  .all_projects_box_centen{
+    height: 120px;
+    margin: 0 10px;
+    line-height: 40px;
+  }
+  .all_projects_box_text{
+    margin: 0 10px;
+  }
+  .all_projects_box_centen>p span:nth-child(2){
+    padding: 0 10px;
+  }
+  .all_projects_box_bott{
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+  }

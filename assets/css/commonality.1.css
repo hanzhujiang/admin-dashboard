@@ -1,0 +1,201 @@
+/*echarts背景与位置*/
+.chart_box{
+    background: #FFF;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius:5px;
+    border: 1px solid #dcdcdc;
+}
+
+/* 首页表格与列表头部公共样式 */
+/* .box-header{
+    height: 40px;
+    background: #FFF;
+    line-height: 40px;
+} */
+/* .latest_sales{
+    font-size: 16px;
+    font-family: SFUIDisplay-Bold;
+    font-weight: bold;
+    color: rgba(49,66,117,1);
+} */
+.box-title{
+  height: 40px;
+}
+.box-title>img{
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+    /* margin-top: 10px; */
+    position: relative;
+    top: 1px;
+}
+.box-title>span{
+  font-size:16px; 
+}
+
+/* 所有项目 */
+.list_view_ul{
+    height: 60px;
+    line-height: 60px;
+  }
+  .condition {
+      padding: 15px 0 0 0;
+  }
+.table_footer {
+    height: 40px;
+    line-height: 40px;
+}
+.list_view{
+font-size:14px;
+/* font-family:SFUIDisplay-Bold; */
+font-weight:bold;
+color:rgba(76,75,213,1);
+position: relative;
+}
+.list_view::before{
+content: ''; 
+position: absolute;
+bottom: 0;
+right: 0;
+width: 80%;
+height: 4PX;
+background-color:rgba(76,75,213,1);
+}
+.active_list_views{
+font-size:14px;
+/* font-family:SFUIDisplay-Bold; */
+font-weight:bold;
+color:rgba(129,137,152,1);
+}
+.active_list_views:hover ,.list_view:hover{
+    cursor:pointer
+}
+
+/* 表单title */
+/* .sub-title{
+    font-size:14px;
+    font-family:SFUIDisplay-Bold;
+    font-weight:bold;
+    color:rgba(85,91,103,1);
+    padding: 15px 0;
+}
+.sub-title-first {
+  font-size:14px;
+  font-family:SFUIDisplay-Bold;
+  font-weight:bold;
+  color:rgba(85,91,103,1);
+  padding: 0 0 15px;
+} */
+
+/* 富文本title文字样式 */ 
+.quill_text_color{
+font-size:14px;
+/* font-family:SFUIDisplay-Bold; */
+font-weight:bold;
+color:rgba(49,66,117,1);
+}
+
+/* .save_box{
+  margin: 10px 20px;
+  height: 40px;
+  }
+
+  .span_btn>img{
+    width: 10px;
+    height: 10px;
+  }
+
+  .sale-header{
+    height: 60px;
+    line-height: 60px;
+  }
+  .sale-title>img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+  } */
+
+  /* .card_box{
+    position: relative;
+    background: #f7f7f7;
+    height: 180px;
+    position: relative;
+    border:1px solid rgba(228,228,228,1);
+    border-radius:5px; 
+  } */
+  .inactive{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #000;
+      color: #FFF;
+      border-radius: 3px;
+      overflow: hidden;
+      padding: 2px 5px;
+  }
+  /* .pic_area {
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+    float: left;
+    
+  } */
+  /* .card{
+    margin: 30px 15px;
+  } */
+  /* .pic_area > img{
+    margin: 5px;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  } */
+
+  /* .add_head{
+      background: #FFF;
+      height:40px;
+      line-height:40px;
+  }
+  .categories{
+    font-size:16px;
+    font-family:SFUIDisplay-Bold;
+    font-weight:bold;
+    color:rgba(49,66,117,1);
+  } */
+  .btntext{
+    font-size:14px;
+    /* font-family:SFUIDisplay-Bold; */
+    font-weight:bold;
+    color:rgba(1,0,142,1);
+    padding: 0 10px;
+  }
+  .btntext:hover{
+    cursor:pointer;
+    color:rgba(76,75,213,1);
+  }
+/* .sub_text{
+    font-size: 10px !important;
+    font-weight: bold;
+    color: blue;
+    padding: 0 10px;
+  } */
+  /* .curtail{
+      color: red;
+      font-size:12px;
+      padding: 5px 0;
+  } */
+  /* .dailog-footer-tools{
+    padding: 15px 0 0 0;
+  } */
+  /* .countryflag{
+    width: 20px;
+    vertical-align: middle;
+  } */
+  .required{
+    color: red;
+  }
+  /* .ground{
+    background: #FFF;
+  } */
